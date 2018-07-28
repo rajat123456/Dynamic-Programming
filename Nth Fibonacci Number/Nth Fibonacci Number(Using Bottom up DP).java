@@ -1,4 +1,6 @@
-// Nth Fibonacci Number(Using Top Down DP)
+// Nth Fibonacci Number(Using Bottom up DP)
+// Time Comp-> O(n)
+// Space Comp-> O(1)
 
 import java.util.*;
 class RR
