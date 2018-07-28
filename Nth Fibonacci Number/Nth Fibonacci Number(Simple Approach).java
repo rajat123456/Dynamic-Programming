@@ -1,4 +1,6 @@
 // Nth Fibonacci Number(Simple Approach)
+// Time Comp-> O(2^N) exponential
+// Space Comp-> O(n), "n" is number of function calls
 
 import java.util.*;
 class main
