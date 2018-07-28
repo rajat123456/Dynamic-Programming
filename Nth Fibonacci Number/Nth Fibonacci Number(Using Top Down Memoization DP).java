@@ -1,7 +1,7 @@
 // Nth Fibonacci Number(Using Top Down Memoization DP)
 
 import java.util.*;
-class Rextester
+class main
 {
 	public static void main(String[] args) {
 		
