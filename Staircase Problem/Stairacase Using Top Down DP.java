@@ -1,7 +1,7 @@
 /* Problem Statement: 
    A child going up a staircase with n steps, can hop up 1, 2, or 3 steps at a time. How many ways can the child reach the top? */
 
-//Using Bottom Up DP(Recursive Memoization)
+//Using Top Down DP(Recursive Memoization)
 
 public class Solution {
 public static long staircase(int n){
