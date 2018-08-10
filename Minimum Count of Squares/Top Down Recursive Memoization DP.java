@@ -5,7 +5,7 @@ Output will be 1, as 1 is the minimum count of numbers required.
 */
 
 //Using Top Down Memoization DP
-//Time Comp-> O(n)
+//Time Comp-> O(N*sqrt(N))
 
 public class Solution {
 	
