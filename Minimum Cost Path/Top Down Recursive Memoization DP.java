@@ -1,3 +1,7 @@
+/*Time Comp-> O(m*n) [This much Unique calls]
+Space Comp->O(m*n)
+*/
+
 import java.util.*;
 public class Solution {
     
@@ -11,10 +15,10 @@ public static int minCostPath(int input[][]) {
         storage[i][j]=-1;   
       }
     }
-      return searchM(input,0,0,storage);
+      return searchMemoized(input,0,0,storage);
 }
 
- static int searchM(int[][]arr, int start, int end,int storage[][])
+ static int searchMemoized(int[][]arr, int start, int end,int storage[][])
     {
        if(start>=arr.length || end>=arr[0].length)
            return Integer.MAX_VALUE;
@@ -30,9 +34,9 @@ public static int minCostPath(int input[][]) {
         return storage[start][end];
        }
     
-       int option1=searchM(arr,start,end+1,storage);
-       int option2=searchM(arr,start+1,end,storage);
-       int option3=searchM(arr,start+1,end+1,storage);
+       int option1=searchMemoized(arr,start,end+1,storage);
+       int option2=searchMemoized(arr,start+1,end,storage);
+       int option3=searchMemoized(arr,start+1,end+1,storage);
       
        //Storing the calculated result, and then returning it
        storage[start][end]=arr[start][end]+Math.min(option1,Math.min(option2,option3));
