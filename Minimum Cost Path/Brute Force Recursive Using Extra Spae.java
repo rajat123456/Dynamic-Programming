@@ -12,6 +12,8 @@ Sample Output:
 */
 
 //Solution-> Using Extra Space
+//Time Comp-> O(3^n)
+//Space Comp->O(n)
 
 import java.util.*;
 public class Solution {
