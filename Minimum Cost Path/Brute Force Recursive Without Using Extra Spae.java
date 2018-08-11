@@ -10,6 +10,8 @@ Sample Output:
 */
 
 //Solution-> Without Using Extra Space
+//Time Comp-> O(3^n)
+//Space Comp->O(1)
 
 import java.util.*;
 public class Solution {
