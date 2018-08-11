@@ -1,8 +1,7 @@
 import java.util.*;
 public class Solution {
     
-    static ArrayList<Integer>al=new ArrayList<>();
-	public static int minCostPath(int input[][]) {
+public static int minCostPath(int input[][]) {
 
     int[][]storage=new int[input.length][input[0].length];
     for (int i=0;i<storage.length;i++)
