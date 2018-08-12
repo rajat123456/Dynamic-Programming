@@ -1,4 +1,5 @@
 //Program returns first LCS of 2 strings
+//Time Comp->Exponential
 
 import java.util.*;
 public class Main
