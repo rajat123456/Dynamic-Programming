@@ -17,7 +17,7 @@ public class Main
 	    if(first.length()==0 || second.length()==0)
 	    return output;
 	    
-	    //First Character of both string matches
+	    //First Character of both string matches, hence prt of LCS
 	    if(first.charAt(0)==second.charAt(0))
 	    output+=LCS(first.substring(1),second.substring(1),first.charAt(0)+"");
 	    
