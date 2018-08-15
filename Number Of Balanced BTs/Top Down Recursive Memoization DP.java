@@ -1,3 +1,5 @@
+//Time Comp-> O(h), "h" is given height
+
 public class Solution {
 
    static int m=1000000007;	
