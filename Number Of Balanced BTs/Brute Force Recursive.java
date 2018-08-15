@@ -14,7 +14,7 @@ public class Solution {
       int x=balancedTreesOfHeightH(height-1);
       int y=balancedTreesOfHeightH(height-2);
       
-      //Convert x into long and then perform operation and then do this whole long operation value %m and then typecast to int
+      //Convert x into long and then perform operation and then do this whole long operation value % "m" and then typecast to int
       int first=(int)(((long)(x)*x)%m);
       int second=(int)(((long)(x)*2*y)%m);
       
